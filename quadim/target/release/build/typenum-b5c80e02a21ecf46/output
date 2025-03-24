@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/nyz/vari-badapple/method1/quadim/target/release/build/typenum-b5c80e02a21ecf46/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/nyz/vari-badapple/method1/quadim/target/release/build/typenum-b5c80e02a21ecf46/out/op.rs

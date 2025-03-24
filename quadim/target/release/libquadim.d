@@ -1,0 +1,1 @@
+/home/nyz/vari-badapple/method1/quadim/target/release/libquadim.rlib: /home/nyz/vari-badapple/method1/quadim/CRATES.IO-README.md /home/nyz/vari-badapple/method1/quadim/src/analyze.rs /home/nyz/vari-badapple/method1/quadim/src/lib.rs /home/nyz/vari-badapple/method1/quadim/src/render.rs /home/nyz/vari-badapple/method1/quadim/src/util.rs

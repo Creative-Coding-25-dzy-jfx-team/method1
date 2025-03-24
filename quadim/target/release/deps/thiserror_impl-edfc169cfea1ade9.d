@@ -1,0 +1,12 @@
+/home/nyz/vari-badapple/method1/quadim/target/release/deps/libthiserror_impl-edfc169cfea1ade9.so: /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/lib.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/ast.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/attr.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/expand.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/fmt.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/generics.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/prop.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/valid.rs
+
+/home/nyz/vari-badapple/method1/quadim/target/release/deps/thiserror_impl-edfc169cfea1ade9.d: /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/lib.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/ast.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/attr.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/expand.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/fmt.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/generics.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/prop.rs /home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/valid.rs
+
+/home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/lib.rs:
+/home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/ast.rs:
+/home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/attr.rs:
+/home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/expand.rs:
+/home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/fmt.rs:
+/home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/generics.rs:
+/home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/prop.rs:
+/home/nyz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-impl-1.0.40/src/valid.rs:
