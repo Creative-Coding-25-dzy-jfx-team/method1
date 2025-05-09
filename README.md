@@ -56,16 +56,6 @@ brew install bc
 ./process_video.py input.mp4 -o output.mp4
 ```
 
-### Bash 脚本
-
-```bash
-./process_video.sh <输入视频> [输出视频]
-
-# 示例
-./process_video.sh input.mp4
-./process_video.sh input.mp4 output.mp4
-```
-
 ## 参数说明
 
 - `<输入视频>`：要处理的视频文件路径（必需）
