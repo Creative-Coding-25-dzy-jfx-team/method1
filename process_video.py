@@ -31,28 +31,32 @@ def extract_video_info(video_path):
     """获取视频信息（分辨率、帧率等）"""
     cmd = ["ffmpeg", "-i", video_path]
     try:
-        output = subprocess.check_output(cmd, stderr=subprocess.STDOUT, universal_newlines=True)
+        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+        _, output = process.communicate()
     except subprocess.CalledProcessError as e:
-        output = e.output
+        output = e.stderr
+    
+    print("Raw FFmpeg output:")
+    print(output)
+    print("--- End of FFmpeg output ---")
 
     # 解析视频信息
     for line in output.split('\n'):
         if "Stream #" in line and "Video:" in line:
-            # 示例格式: "Stream #0:0: Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 694x324"
-            parts = line.split(',')
-            for part in parts:
-                if 'x' in part and any(c.isdigit() for c in part):
-                    # 提取分辨率
-                    dimensions = part.strip().split('x')
-                    if len(dimensions) == 2 and all(d.isdigit() for d in dimensions):
-                        width, height = map(int, dimensions)
-                        ratio = f"{round(width/height*10)}:10"
-                        return {
-                            'width': width,
-                            'height': height,
-                            'ratio': ratio,
-                            'buffer_size': width * height
-                        }
+            # Match resolution in video stream line format
+            import re
+            match = re.search(r'Stream.*Video:.*?, (\d+)x(\d+)', line)
+            if match:
+                width, height = map(int, match.groups())
+                if width == 0 or height == 0:
+                    return None
+                ratio = f"{round(width/height*10)}:10" if width > height else f"10:{round(height/width*10)}"
+                return {
+                    'width': width,
+                    'height': height,
+                    'ratio': ratio,
+                    'buffer_size': width * height * 4  # Multiply by 4 for RGBA buffer
+                }
     return None
 
 def extract_frames(video_path, frames_dir):
